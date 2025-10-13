@@ -118,7 +118,7 @@
     background-color: #e65c00;
     transform: scale(1.05);
 }
-.cta-service {
+.cta-studio {
     display: inline-block;
     padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
     font-size: clamp(14px, 1.2vw, 18px);
@@ -133,7 +133,7 @@
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.cta-service:hover {
+.cta-studio:hover {
     background-color: #e65c00;
     transform: scale(1.05);
 }
@@ -155,4 +155,5 @@
 .overlay-social-icons a:hover {
     color: #ff6600;
 }
+
 
