@@ -112,13 +112,13 @@
   text-decoration: none;
   margin: 0 10px;
   border: none;
-  transition: all 0.3s ease;
+  transition: transform 0.35s ease, background-color 0.35s ease;
   animation: fadeUp 1.2s ease-out both;
 }
 
 .cta-originals:hover {
   background-color: #a67cff !important;
-  transform: scale(1.05);
+  transform: scale(1.08); /* Membesar lembut */
 }
 
 /* ========== Anivika Studio (Transparan dengan Border Putih) ========== */
@@ -134,14 +134,14 @@
   border-radius: 50px;
   text-decoration: none;
   margin: 0 10px;
-  transition: all 0.3s ease;
+  transition: transform 0.35s ease, background-color 0.35s ease, color 0.35s ease;
   animation: fadeUp 1.4s ease-out both;
 }
 
 .cta-studio:hover {
   background-color: #fff !important;
   color: #000 !important;
-  transform: scale(1.05);
+  transform: scale(1.08); /* Membesar lembut */
 }
 
 /* ========== Social Icons ========== */
