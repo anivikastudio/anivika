@@ -350,13 +350,4 @@
   transform: scale(1.05);
 }
 
-/* Optional: Responsive styling */
-@media (max-width: 768px) {
-  .hero-buttons {
-    flex-direction: column;
-  }
-  .btn-hero {
-    width: 80%;
-    text-align: center;
-  }
-}
+
