@@ -78,82 +78,105 @@
     background-color: #3a0041;
   }
   
-  @media(max-width: 767px) {
-    .contact-form-area form .col-md-4 {
-      flex: 1 1 100%;
-    }
-  }
-  
-  .cta-overlay {
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    text-align: center;
-    background: none;
-    padding: 0;
-    margin: 0;
-    border: none;
-    width: auto;
-    height: auto;
+ /* ===========================================
+   ANIVIKA CTA BUTTONS (Updated Version)
+   =========================================== */
+
+.cta-overlay {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: auto;
+  height: auto;
 }
 
+/* ========== Anivika Originals (Ungu Solid) ========== */
 .cta-originals {
-    display: inline-block;
-    padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
-    font-size: clamp(14px, 1.2vw, 18px);
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #ff6600;
-    border-radius: 50px;
-    text-decoration: none;
-    margin-bottom: 1.5vh;
-    border: none;
-    transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #7a3fff; /* Ungu solid */
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 1.5vh;
+  border: none;
+  transition: all 0.3s ease;
 }
 
 .cta-originals:hover {
-    background-color: #e65c00;
-    transform: scale(1.05);
+  background-color: #a67cff; /* Ungu lebih terang saat hover */
+  transform: scale(1.05);
 }
+
+/* ========== Anivika Studio (Transparan dengan Border Putih) ========== */
 .cta-studio {
-    display: inline-block;
-    padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
-    font-size: clamp(14px, 1.2vw, 18px);
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #ff6600;
-    border-radius: 50px;
-    text-decoration: none;
-    margin-bottom: 1.5vh;
-    border: none;
-    transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent; /* transparan */
+  border: 2px solid #fff; /* outline putih */
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 1.5vh;
+  transition: all 0.3s ease;
 }
 
 .cta-studio:hover {
-    background-color: #e65c00;
-    transform: scale(1.05);
+  background-color: #fff; /* Putih saat hover */
+  color: #000; /* Teks jadi hitam */
+  transform: scale(1.05);
 }
+
+/* ========== Social Icons (tetap sama) ========== */
 .overlay-social-icons {
-    display: flex;
-    justify-content: center;
-    gap: clamp(12px, 2vw, 24px);
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: clamp(12px, 2vw, 24px);
+  margin: 0;
+  padding: 0;
 }
 
 .overlay-social-icons a {
-    color: #fff;
-    font-size: clamp(16px, 1.6vw, 24px);
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #fff;
+  font-size: clamp(16px, 1.6vw, 24px);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .overlay-social-icons a:hover {
-    color: #ff6600;
+  color: #7a3fff; /* Ikon ikut tone ungu */
 }
+
+/* Responsive */
+@media (max-width: 767px) {
+  .contact-form-area form .col-md-4 {
+    flex: 1 1 100%;
+  }
+
+  .cta-overlay {
+    top: 75%;
+  }
+
+  .cta-originals, .cta-studio {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+
 
 
