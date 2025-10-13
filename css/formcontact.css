@@ -1,86 +1,5 @@
 /* ===========================================
-   ANIVIKA – FORM & CTA STYLES (FINAL CLEAN)
-   =========================================== */
-
-/* ====== Contact Section ====== */
-.contact-area {
-  padding: 50px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF;
-}
-
-.contact-heading-text h2 {
-  font-weight: 700;
-  font-size: 2.8rem;
-  margin-bottom: 15px;
-}
-
-.contact-heading-text p {
-  font-size: 1.15rem;
-  color: #555;
-  max-width: 700px;
-  margin: 0 auto 50px auto;
-}
-
-.contact-form-area form .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.contact-form-area form input[type="text"],
-.contact-form-area form input[type="email"],
-.contact-form-area form textarea {
-  width: 100%;
-  padding: 10px 5px;
-  border: none;
-  border-bottom: 2px solid #CFCFCF;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
-  resize: vertical;
-  background-color: transparent;
-  color: #222;
-}
-
-.contact-form-area form input[type="text"]:focus,
-.contact-form-area form input[type="email"]:focus,
-.contact-form-area form textarea:focus {
-  outline: none;
-  border-bottom-color: #1A1D2E;
-}
-
-@media (min-width: 768px) {
-  .contact-form-area form .col-md-4 {
-    flex: 1 1 30%;
-  }
-}
-
-.contact-form-area form .col-12 textarea {
-  min-height: 160px;
-}
-
-.contact-form-area form button.btn {
-  background-color: #000000;
-  color: white;
-  font-weight: 600;
-  border: none;
-  padding: 12px 30px;
-  border-radius: 50px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: background-color 0.3s ease;
-  font-size: 1.1rem;
-}
-
-.contact-form-area form button.btn:hover {
-  background-color: #3a0041;
-}
-
-/* ===========================================
-   ANIVIKA CTA BUTTONS
+   ANIVIKA CTA BUTTONS (Final - Original Layout)
    =========================================== */
 
 .cta-overlay {
@@ -96,7 +15,6 @@
   border: none;
   width: auto;
   height: auto;
-  animation: fadeUp 1s ease-out both;
 }
 
 /* ========== Anivika Originals (Ungu Solid) ========== */
@@ -106,19 +24,18 @@
   font-size: clamp(14px, 1.2vw, 18px);
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff !important;
-  background-color: #7a3fff !important;
+  color: #fff;
+  background-color: #7a3fff; /* Ungu solid */
   border-radius: 50px;
   text-decoration: none;
-  margin: 0 10px;
+  margin-bottom: 1.5vh;
   border: none;
   transition: all 0.3s ease;
-  animation: fadeUp 1.2s ease-out both;
 }
 
 .cta-originals:hover {
-  background-color: #a67cff !important;
-  transform: scale(1.05);
+  background-color: #a67cff; /* Ungu lebih terang saat hover */
+  transform: scale(1.1); /* Membesar saat hover */
 }
 
 /* ========== Anivika Studio (Transparan dengan Border Putih) ========== */
@@ -128,23 +45,22 @@
   font-size: clamp(14px, 1.2vw, 18px);
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff !important;
-  background-color: transparent !important;
-  border: 2px solid #fff !important;
+  color: #fff;
+  background-color: transparent; /* transparan */
+  border: 2px solid #fff; /* outline putih */
   border-radius: 50px;
   text-decoration: none;
-  margin: 0 10px;
+  margin-bottom: 1.5vh;
   transition: all 0.3s ease;
-  animation: fadeUp 1.4s ease-out both;
 }
 
 .cta-studio:hover {
-  background-color: #fff !important;
-  color: #000 !important;
-  transform: scale(1.05);
+  background-color: #fff; /* Putih saat hover */
+  color: #000; /* Teks jadi hitam */
+  transform: scale(1.1); /* Membesar saat hover */
 }
 
-/* ========== Social Icons ========== */
+/* ========== Social Icons (tetap sama) ========== */
 .overlay-social-icons {
   display: flex;
   justify-content: center;
@@ -161,19 +77,7 @@
 }
 
 .overlay-social-icons a:hover {
-  color: #7a3fff;
-}
-
-/* ========== Animations ========== */
-@keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px) scale(0.95);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+  color: #7a3fff; /* Ikon ikut tone ungu */
 }
 
 /* Responsive */
@@ -186,8 +90,7 @@
     top: 75%;
   }
 
-  .cta-originals,
-  .cta-studio {
+  .cta-originals, .cta-studio {
     width: 80%;
     display: block;
     margin: 10px auto;
