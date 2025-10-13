@@ -99,7 +99,7 @@
     height: auto;
 }
 
-.cta-button {
+.cta-originals {
     display: inline-block;
     padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
     font-size: clamp(14px, 1.2vw, 18px);
@@ -114,11 +114,29 @@
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.cta-button:hover {
+.cta-originals:hover {
     background-color: #e65c00;
     transform: scale(1.05);
 }
+.cta-service {
+    display: inline-block;
+    padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
+    font-size: clamp(14px, 1.2vw, 18px);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff6600;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-bottom: 1.5vh;
+    border: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
 
+.cta-service:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
 .overlay-social-icons {
     display: flex;
     justify-content: center;
@@ -137,3 +155,4 @@
 .overlay-social-icons a:hover {
     color: #ff6600;
 }
+
