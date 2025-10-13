@@ -319,3 +319,44 @@
         font-size: 14px;
     }
 }
+
+/* ===========================================
+   ANIVIKA HERO BUTTONS (Replace Get in Touch)
+   =========================================== */
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-hero {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.btn-hero:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Optional: Responsive styling */
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+  .btn-hero {
+    width: 80%;
+    text-align: center;
+  }
+}
