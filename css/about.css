@@ -1,0 +1,27 @@
+/* :: 7.0 About Me Area CSS */
+
+.about-content span {
+    width: 30px;
+    height: 2px;
+    background-color: #111111;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.about-content h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.single-service-area img {
+    margin-bottom: 50px;
+}
+
+.single-service-area h5 {
+    margin-bottom: 20px;
+}
+
+.single-pie-bar h6 {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
