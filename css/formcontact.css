@@ -59,7 +59,26 @@
   color: #000; /* Teks jadi hitam */
   transform: scale(1.1); /* Membesar saat hover */
 }
+.cta-studio {
+  display: inline-block;
+  padding: clamp(10px, 2.5vw, 18px) clamp(24px, 6vw, 42px);
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent; /* transparan */
+  border: 2px solid #fff; /* outline putih */
+  border-radius: 50px;
+  text-decoration: none;
+  margin-bottom: 1.5vh;
+  transition: all 0.3s ease;
+}
 
+.cta-studio:hover {
+  background-color: #fff; /* Putih saat hover */
+  color: #000; /* Teks jadi hitam */
+  transform: scale(1.1); /* Membesar saat hover */
+}
 /* ========== Social Icons (tetap sama) ========== */
 .overlay-social-icons {
   display: flex;
@@ -96,3 +115,4 @@
     margin: 10px auto;
   }
 }
+
