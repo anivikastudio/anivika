@@ -91,7 +91,7 @@ body{
 
 .hero{
     height:100vh;
-    background:url('img/bg-img/wallpaper.png') center/cover no-repeat;
+    background:url('../img/bg-img/wallpaper.png') center/cover no-repeat;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -274,4 +274,5 @@ body{
     .dropdown:hover .dropdown-menu{
         display:none;
     }
+
 }
