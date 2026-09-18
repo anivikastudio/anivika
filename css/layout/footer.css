@@ -1,0 +1,214 @@
+/* ==========================================
+FOOTER
+========================================== */
+
+.footer {
+
+
+padding: 80px 60px 30px;
+
+background:
+    var(--ink-black);
+
+border-top:
+    1px solid rgba(255,255,255,.08);
+
+
+}
+
+.footer-container {
+
+
+display: grid;
+
+grid-template-columns:
+    2fr
+    1fr
+    1fr
+    auto;
+
+gap: 60px;
+
+margin-bottom: 50px;
+
+align-items: start;
+
+
+}
+
+/* ==========================================
+BRAND
+========================================== */
+
+.footer-brand h3 {
+
+
+margin-bottom: 12px;
+
+
+}
+
+.footer-brand p {
+
+
+max-width: 280px;
+
+opacity: .7;
+
+line-height: 1.7;
+
+
+}
+
+/* ==========================================
+COLUMNS
+========================================== */
+
+.footer-column {
+
+
+display: flex;
+
+flex-direction: column;
+
+gap: 12px;
+
+
+}
+
+.footer-column h4 {
+
+
+margin-bottom: 8px;
+
+color:
+    var(--champagne-gold);
+
+
+}
+
+.footer-column a {
+
+
+text-decoration: none;
+
+color:
+    var(--soft-ivory);
+
+opacity: .8;
+
+transition:
+    .3s ease;
+
+
+}
+
+.footer-column a:hover {
+
+
+opacity: 1;
+
+color:
+    var(--champagne-gold);
+
+
+}
+
+/* ==========================================
+SOCIAL
+========================================== */
+
+.footer-social {
+
+
+display: flex;
+
+gap: 18px;
+
+align-items: flex-start;
+
+
+}
+
+.footer-social a {
+
+
+color:
+    var(--soft-ivory);
+
+font-size: 22px;
+
+opacity: .7;
+
+transition:
+    .3s ease;
+
+
+}
+
+.footer-social a:hover {
+
+
+opacity: 1;
+
+color:
+    var(--champagne-gold);
+
+transform:
+    translateY(-2px);
+
+
+}
+
+/* ==========================================
+COPYRIGHT
+========================================== */
+
+.footer-bottom {
+
+
+border-top:
+    1px solid rgba(255,255,255,.08);
+
+padding-top: 30px;
+
+text-align: center;
+
+font-size: 14px;
+
+opacity: .6;
+
+
+}
+
+/* ==========================================
+MOBILE
+========================================== */
+
+@media (max-width: 900px) {
+
+
+.footer {
+
+    padding:
+        60px 24px 24px;
+
+}
+
+.footer-container {
+
+    grid-template-columns:
+        1fr;
+
+    gap: 40px;
+
+}
+
+.footer-social {
+
+    justify-content: flex-start;
+
+}
+
+
+}

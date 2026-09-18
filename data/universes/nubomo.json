@@ -1,0 +1,93 @@
+{
+  "id": "nubomo",
+
+  "title": "Nubomo",
+
+  "subtitle": "Anivika Originals",
+
+  "tagline": "A curious creature from another world discovering ours one mistake at a time.",
+
+  "status": "In Development",
+
+  "visibility": "Public",
+
+  "format": "Shortform Series",
+
+  "genre": ["Comedy", "Adventure"],
+
+  "rating": "All Ages",
+
+  "stories": 0,
+
+  "episodes": 0,
+
+  "seasons": 0,
+
+  "characters": 1,
+
+  "hero": {
+    "title": "Meet Nubomo",
+
+    "tagline": "A curious creature from another world discovering ours one mistake at a time.",
+
+    "background": "/assets/images/nubomo/hero.jpg"
+  },
+
+  "character": {
+    "name": "Nubomo",
+
+    "species": "Unknown",
+
+    "origin": "Unknown World",
+
+    "headline": "Curious. Playful. Chaotic.",
+
+    "bio": "Nubomo is a soft urban monster from another world. Every object becomes a mystery. Every mystery becomes an adventure. Every adventure becomes chaos.",
+
+    "personality": ["Curious", "Playful", "Mischievous", "Expressive"]
+  },
+
+  "world": {
+    "name": "Nubomo Universe",
+
+    "status": "Coming Soon",
+
+    "headline": "Ordinary Things. Extraordinary Adventures.",
+
+    "description": "Everyday objects become strange, exciting and unexpected through Nubomo's eyes."
+  },
+
+  "media": {
+    "poster": "/assets/images/nubomo/poster.jpg",
+
+    "thumbnail": "/assets/images/nubomo/thumb.jpg",
+
+    "banner": "/assets/images/nubomo/banner.jpg",
+
+    "logo": "/assets/images/nubomo/logo.svg",
+
+    "character": "/assets/nubomo/nubomo-full.webp"
+  },
+
+  "links": {
+    "page": "/originals/nubomo.html",
+
+    "youtube": "",
+
+    "instagram": ""
+  },
+
+  "seo": {
+    "title": "Nubomo | Anivika Originals",
+
+    "description": "Meet Nubomo, a curious creature from another world and the first original character from Anivika Originals.",
+
+    "ogImage": "/assets/seo/og-nubomo.jpg"
+  },
+
+  "timeline": {
+    "created": "2026",
+
+    "release": "TBA"
+  }
+}
